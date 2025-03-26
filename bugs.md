@@ -176,3 +176,137 @@ Reprodução do Bug:
 
 Resultado esperado: O botão "Sing up" está acima do rodapé
 Resultado encotrado: O botão sobrepõe da linha do rodapé 
+
+Bug 11# - O valor total do carrinho está incorreto 
+Prioridade: Crítico
+Tipos de problema: Funcional
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+ 1.Abra https://academybugs.com
+ 2.Clique em "Find Bugs" na barra de navegação
+ 3.Escolha qualquer produto
+ 4.Clique em "ADD TO CART""
+ 5.Clique em "VIEW CART"
+ 6.Visualizar em "CART TOTALS" 
+
+
+Resultado esperado: O valor devia ser compatível com o valor somado dos produtos no carrinho 
+Resultado encotrado: No carrinho o total do produto sempre está $100 acima do valor do produto
+
+Bug 12# - A legenda do botão de Entrar é desalinhada verticalmente.
+Prioridade: Baixo
+Tipos de problema: Visual
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+1.Abra https://academybugs.com
+2.Clique no link Find Bugs na barra de navegação
+3.Abra um produto
+4.Vá até o fundo e encontre o sinal no formulário no menu do lado direito
+5.Digite qualquer login e senha que não estejam registrados e clique em "Sinal In"
+
+Resultado esperado: A legenda do botão Entrar é centralizada verticalmente
+Resultado encotrado: A legenda do botão Login é desalinhada verticalmente
+
+
+Bug 12# - As cores amarelo "yellow" e laranja "orange" estão escritas de forma incorreta
+Prioridade: Baixo
+Tipos de problema: Conteúdo
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+1.Abra https://academybugs.com
+2.Clique no link Find Bugs na barra de navegação
+3.Abra um produto
+4.Abra um produto com opções de cores
+5.Escolha as cores Amarelo e Laranja
+
+Resultado esperado: As cores são escritas corretamente 
+Resultado encotrado: As cores estão escritas de forma incorreta "Yelow" e "Orang"
+
+
+
+Bug 13# - As cores amarelo "yellow" e laranja "orange" estão escritas de forma incorreta
+Prioridade: Baixo
+Tipos de problema: Conteúdo
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+1.Abra https://academybugs.com
+2.Clique no link Find Bugs na barra de navegação
+3.Abra um produto
+4.Abra um produto com opções de cores
+5.Escolha as cores Amarelo e Laranja
+
+Resultado esperado: As cores são escritas corretamente 
+Resultado encotrado: As cores estão escritas de forma incorreta "Yelow" e "Orang"
+
+Bug 14# - Existem símbolos ilegíveis no popup do carrinho de compras.
+Prioridade: Baixo
+Tipos de problema: Conteúdo
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+1.Abra https://academybugs.com
+2.Clique no link Find Bugs na barra de navegação
+3.Adicionar um ou mais produtos ao carrinho
+4.Clique em "Ver carrinho" no topo da página
+5.Role para baixo até a seção Carrinho de compras do menu do lado direito
+6.Passe o cursor sobre a legenda do carrinho de compras
+
+Resultado esperado: Toda a escrita são legíveis para o usuário 
+Resultado encotrado: Existem símbolos ilegíveis no pop-up do carrinho de compras
+
+Bug 16# - Há um grande espaço antes da última letra em "Retornar à loja".
+Prioridade: Baixo
+Tipos de problema: Conteúdo
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+1.Abra https://academybugs.com
+2.Clique no link Find Bugs na barra de navegação
+3.Abra um produto 
+4.Abra o carrinho na parte inferior do menu do lado direito
+5.Limpe o carrinho se houver algum item
+
+Resultado esperado: A legenda do botão "Retornar para armazenar" é escrita com espaçamento uniforme entre as letras 
+Resultado encotrado: Há muito espaço antes da última letra em "Retorno à Loja"
+
+Bug 17# - O texto na seção Novo usuário não está em inglês.
+Prioridade: Baixo
+Tipos de problema: Conteúdo
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+1.Abra https://academybugs.com
+2.Clique no link Find Bugs na barra de navegação
+3.Abra um produto 
+4.Desloque-se até a parte inferior do menu do lado direito
+5.Clique em "Entrar" para abrir o login na página
+
+Resultado esperado: O texto na seção Novos Usuários está em inglês
+Resultado encotrado: O texto na seção Novo usuário está em outro idioma
+
+Bug 18# - O texto na seção Novo usuário não está em inglês.
+Prioridade: Baixo
+Tipos de problema: Conteúdo
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+1.Abra https://academybugs.com
+2.Clique no link Find Bugs na barra de navegação
+3.Abra um produto 
+4.Desloque-se até a parte inferior do menu do lado direito
+5.Clique em "Entrar" para abrir o login na página
+
+Resultado esperado: O texto na seção Novos Usuários está em inglês
+Resultado encotrado: O texto na seção Novo usuário está em outro idioma
