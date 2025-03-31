@@ -63,4 +63,4 @@ Aprender sobre diferentes tipos de problemas que podem afetar aplicações web
 🔗 Links Úteis
 
 https://academybugs.com/find-bugs/# - Plataforma utilizada para identificação dos bugs
- - Publicação sobre esta experiência
+https://www.linkedin.com/posts/shara-figueredo_testedesoftware-activity-7312496338309472256-d2Pi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPBE_kBIJOPZR5xpfTDkg6f_JH-wiGTQfo - Publicação sobre esta experiência
