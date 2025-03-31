@@ -292,12 +292,12 @@ Reprodução do Bug:
 4.Desloque-se até a parte inferior do menu do lado direito
 5.Clique em "Entrar" para abrir o login na página
 
-Resultado esperado: O texto na seção Novos Usuários está em inglês
-Resultado encotrado: O texto na seção Novo usuário está em outro idioma
+Resultado esperado: O texto na seção "New User" está em inglês
+Resultado encotrado: O texto na seção "New User" está em outro idioma
 
-Bug 18# - O texto na seção Novo usuário não está em inglês.
+Bug 18# - O título do campo senha está desalinhado.
 Prioridade: Baixo
-Tipos de problema: Conteúdo
+Tipos de problema: Visual
 Frequência: Sempre
 Ambiente: Todos os navegadores
 
@@ -306,7 +306,123 @@ Reprodução do Bug:
 2.Clique no link Find Bugs na barra de navegação
 3.Abra um produto 
 4.Desloque-se até a parte inferior do menu do lado direito
-5.Clique em "Entrar" para abrir o login na página
+5.Clique em "Sing in" sem preencher o formulário 
 
-Resultado esperado: O texto na seção Novos Usuários está em inglês
-Resultado encotrado: O texto na seção Novo usuário está em outro idioma
+Resultado esperado: O texto na seção "Return Customer" a palavra Password está alinhada à esquerda
+Resultado encotrado: O texto na seção "Return Customer" a palavra Password está alinhada à direita
+
+Bug 19# - A página fica sem resposta ao clicar "Retrive Password"
+Prioridade: Alta
+Tipos de problema: Crash
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+ 1.Abra  https://academybugs.com
+ 2.Clique em "Find Bugs" na barra de navegação
+ 3.Desloque-se para a seção Sua conta do menu do lado direito
+ 4.Clique em "Sincrever-se"
+ 5.Na seção Retornar o cliente clique em "Retrieve Your Password"
+ 6.Insira seu e-mail no campo e clique em "Retrieve Password"
+
+Resultado esperado: A senha é enviada para o e-mail inserido
+Resultado encotrado:A página fica sem resposta ao clicar em "Retrieve Password" e nenhum e-mail é enviado
+
+Bug 20# - O endereço de faturamento é carregado infinitamente.
+Prioridade: Médio
+Tipos de problema: Performance
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+ 1.Abra  https://academybugs.com
+ 2.Clique em "Find Bugs" na barra de navegação
+ 3.Abra um produto
+ 4.Registe-se se não estiver inscrito ou iniciar sessão na parte inferior do menu do lado direito
+ 5.Na parte inferior do menu do lado direito, selecione Painel
+ 6.Seguir até a seção de endereço de faturamento
+
+Resultado esperado: A seção de endereço de faturamento mostra informações apropriadas
+Resultado encotrado:A seção de endereço de faturamento carrega infinitamente
+
+Bug 21# -  As imagens de itens têm espaço desnecessário por baixo.
+Prioridade: Baixo
+Tipos de problema: Visual
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+ 1.Abra https://academybugs.com
+ 2.Clique no link Find Bugs na barra de navegação
+ 3.Abra um produto
+ 4.Localizar a seção Menu da loja no menu do lado direito
+ 5.Escolha todos os itens
+
+Resultado esperado: Imagens do item não têm espaço por baixo
+Resultado encotrado:Imagens de itens têm espaço desnecessário por baixo
+
+Bug 22# -  A página de compartilhamento "My Space" carrega infinitamente.
+Prioridade: Baixo
+Tipos de problema: Desempenho
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+ 1.Abra https://academybugs.com
+ 2.Clique no link Find Bugs na barra de navegação
+ 3.Abra um produto
+ 4.Clique no link Meu Espaço compartilhar
+
+Resultado esperado: O usuário é capaz de compartilhar o produto através do "My Space"
+Resultado encotrado: Minha página de compartilhamento de espaço é carregada infinitamente
+
+Bug 23# -  A página congela ao aumentar a quantidade do produto com cores verdes ou rosa escolhidas.
+Prioridade: Alto
+Tipos de problema: Crash
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+ 1.Abra https://academybugs.com
+ 2.Clique no link Find Bugs na barra de navegação
+ 3.Abra um produto com opções de cores
+ 4.Escolha a cor rosa ou verde
+ 5.Aumentar a quantidade do produto em 1 ou mais
+
+Resultado esperado: A quantidade é aumentada para um valor desejado
+Resultado encotrado: A página fica sem resposta ao aumentar a quantidade com as cores rosa ou verde escolhidas
+
+Bug 24# -  As informações de faturamento não são atualizadas.
+Prioridade: Alto
+Tipos de problema: Desempenho
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+ 1.Abra https://academybugs.com
+ 2.Clique no link "Find Bugs" (Encontrar Bugs) na barra de navegação
+ 3.Abra um produto
+ 4.Clique em "Sign Up" (Cadastrar-se) na parte inferior do menu do lado direito
+ 5.Cadastre-se com dados falsos se você não estiver cadastrado. Caso contrário, insira suas credenciais e faça login
+ 6.Na parte inferior do menu do lado direito, selecione "Billing Information" (Informações de Cobrança)
+ 7.Preencha o formulário de informações de cobrança
+Clique em "Update" (Atualizar)
+
+Resultado esperado:As informações de faturamento são atualizadas após o preenchimento do formulário e clicando em "Atualizar"
+Resultado encotrado: Carrega a área de cobrança infinitamente após o preenchimento do formulário e clique em "Atualizar"
+
+Bug 25# - O histórico de pedidos é carregado infinitamente.escolhidas.
+Prioridade: Alto
+Tipos de problema: Desempenho
+Frequência: Sempre
+Ambiente: Todos os navegadores
+
+Reprodução do Bug:
+  1.Abra https://academybugs.com
+  2.Clique no link Find Bugs na barra de navegação
+  3.Abra um produto
+  4.Registe-se se não estiver inscrito ou iniciar sessão na parte inferior do menu do lado direito
+  5.Na parte inferior do menu do lado direito, selecione Histórico de pedidos
+
+Resultado esperado: A seção Histórico de ordens mostra informações apropriadas
+Resultado encotrado: A seção Histórico de ordens carrega infinitamente
